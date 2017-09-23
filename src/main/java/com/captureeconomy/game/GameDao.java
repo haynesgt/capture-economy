@@ -11,7 +11,7 @@ public class GameDao {
         return world;
     }
 
-    public setWorld(World world) {
+    public void setWorld(World world) {
         this.world = world;
     }
 

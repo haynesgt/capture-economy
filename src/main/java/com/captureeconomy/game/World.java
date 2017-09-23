@@ -3,9 +3,9 @@ package com.captureeconomy.game;
 import java.time.Clock;
 import java.time.Duration;
 import java.time.Instant;
-import java.time.TemporalAmount;
 import java.util.Collection;
 import lombok.Data;
+import org.apache.commons.math3.geometry.euclidean.twod.Vector2D;
 
 @Data
 public class World {
@@ -16,7 +16,7 @@ public class World {
 
     private long desiredResourceNumber = 100;
 
-    private TemporalAmount desiredResourceDuration = Duration.ofSeconds(60);
+    private Duration desiredResourceDuration = Duration.ofSeconds(60);
 
     private Collection<Resource> resources;
 

@@ -1,6 +1,7 @@
 package com.captureeconomy.game;
 
-import java.time.TemporalAmount;
+import java.time.Instant;
+import java.time.Duration;
 import lombok.Data;
 import org.apache.commons.math3.geometry.euclidean.twod.Vector2D;
 
@@ -14,7 +15,7 @@ public class Resource {
 
     private Instant created;
 
-    private TemporalAmount duration;
+    private Duration duration;
 
 }
 
