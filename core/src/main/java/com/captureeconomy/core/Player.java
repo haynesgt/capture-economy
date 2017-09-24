@@ -1,4 +1,4 @@
-package com.captureeconomy.game;
+package com.captureeconomy.core;
 
 import java.time.Instant;
 import java.util.Collection;

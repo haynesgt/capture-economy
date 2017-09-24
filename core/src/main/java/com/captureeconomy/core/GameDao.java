@@ -1,4 +1,4 @@
-package com.captureeconomy.game;
+package com.captureeconomy.core;
 
 import org.springframework.stereotype.Repository;
 

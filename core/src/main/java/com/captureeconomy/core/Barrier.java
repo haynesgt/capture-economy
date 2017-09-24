@@ -1,7 +1,5 @@
-package com.captureeconomy.game;
+package com.captureeconomy.core;
 
-import java.time.Instant;
-import java.time.Duration;
 import lombok.Data;
 import org.apache.commons.math3.geometry.euclidean.twod.Vector2D;
 
@@ -9,13 +7,12 @@ import org.apache.commons.math3.geometry.euclidean.twod.Vector2D;
  * A rectangular barrier with one corner at position and another at position + size
  */
 @Data
-public class Resource {
+public class Barrier {
 
     private Vector2D position;
 
-    private Instant created;
+    private Vector2D size;
 
-    private Duration duration;
+    private boolean enabled;
 
 }
-
